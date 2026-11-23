@@ -35,7 +35,7 @@ tags = {
   }
 lifecycle {
       ignore_changes = [
-         tags
+         tags, private_dns_name_options, metadata_options, primary_network_interface
       ]  
    }
 }
